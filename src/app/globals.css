@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  /* background-color: #000084; */
+  background: url("/bg.jpg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
